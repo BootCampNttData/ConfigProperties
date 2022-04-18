@@ -6,8 +6,10 @@ eureka:
     register-with-eureka: true
     service-url:
       default-zone: http://localhost:8761/eureka
+      
   instance:
-    hostname: localhost
+    hostname: ${vcap.application.uris[0]:localhost}
+    preferIpAddress: true
 spring:
   cloud:
     gateway:
