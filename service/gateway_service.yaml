@@ -8,7 +8,7 @@ eureka:
       default-zone: http://localhost:8761/eureka
       
   instance:
-    hostname: ${vcap.application.uris[0]:localhost}
+    hostname: localhost
     preferIpAddress: true
 spring:
   cloud:
