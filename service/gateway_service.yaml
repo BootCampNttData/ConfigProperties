@@ -8,7 +8,6 @@ eureka:
       default-zone: http://host.docker.internal:8761/eureka
       
   instance:
-    hostname: localhost
     prefer-ip-address: true
 spring:
   cloud:
