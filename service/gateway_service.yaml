@@ -20,7 +20,7 @@ spring:
           uri: lb://retailclient
           predicates:
           - Path=/retailclient/**           
-        #- id: retailclient
-        #  uri: lb://retailclient
-        #  predicates:
-        #  - Path=/retailclient/**
+        - id: businessclient
+          uri: lb://businessclient
+          predicates:
+          - Path=/businessclient/**
