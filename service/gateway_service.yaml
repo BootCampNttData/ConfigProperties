@@ -19,4 +19,8 @@ spring:
         - id: retailclient
           uri: lb://retailclient
           predicates:
-          - Path=/retailclient/**
+          - Path=/retailclient/**           
+        #- id: retailclient
+        #  uri: lb://retailclient
+        #  predicates:
+        #  - Path=/retailclient/**
