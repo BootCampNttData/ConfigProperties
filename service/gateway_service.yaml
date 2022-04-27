@@ -16,10 +16,10 @@ spring:
         locator:
           enabled: true
       routes:
-#        - id: retailclient
-#          uri: lb://retailclient
-#          predicates:
-#          - Path=/retailclient/**
+        - id: retailclient
+          uri: lb://retailclient
+          predicates:
+          - Path=/retailclient/**
         - id: businessclient
           uri: lb://business-client
           predicates:
