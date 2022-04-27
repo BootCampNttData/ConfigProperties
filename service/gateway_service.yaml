@@ -24,3 +24,7 @@ spring:
           uri: lb://business-client
           predicates:
           - Path=/business-client/**
+        - id: credit
+          uri: lb://credit
+          predicates:
+            - Path=/credit/**
