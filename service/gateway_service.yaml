@@ -47,7 +47,7 @@ spring:
         - id: fixedDepositAccount
           uri: lb://fixedDepositAccount
           predicates:
-                  - Path=/fixedDepositAccount/**
+            - Path=/fixedDepositAccount/**
         - id: debitcard
           uri: lb://debitcard
           predicates:
