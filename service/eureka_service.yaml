@@ -7,7 +7,7 @@ eureka:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-      default-zone: http://host.docker.internal:${server.port}/eureka/
+      default-zone: http://172.17.48.1:${server.port}/eureka/
 
 #server.port=8761
 #eureka.client.fetch-registry=false
