@@ -8,10 +8,3 @@ eureka:
     register-with-eureka: false
     service-url:
       default-zone: http://host.docker.internal:${server.port}/eureka/
-
-#server.port=8761
-#eureka.client.fetch-registry=false
-#eureka.client.register-with-eureka=false
-#eureka.instance.prefer-ip-address=true
-#eureka.client.service-url.default-zone=http://172.17.48.1:${server.port}/eureka/
-##eureka.client.service-url.default-zone=http://host.docker.internal:${server.port}/eureka/
