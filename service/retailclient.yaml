@@ -1,6 +1,6 @@
 server:
-  port: 9081
-#  port: ${PORT:${SERVICE_PORT:0}}
+  port: ${PORT:${SERVICE_PORT:0}}
+#  port: 9081
 
 spring:
   data:

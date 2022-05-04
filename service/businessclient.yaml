@@ -1,6 +1,7 @@
 server:
-  port: 9082
-#  port: ${PORT:${SERVICE_PORT:0}}
+  port: ${PORT:${SERVICE_PORT:0}}
+#  port: 9082
+
 
 spring:
   data:
@@ -15,7 +16,6 @@ eureka:
     register-with-eureka: true
     serviceUrl:
       defaultZone: http://192.168.0.121:8761/eureka
-
 
 constans:
   url:
