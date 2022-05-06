@@ -58,7 +58,7 @@ spring:
           uri: lb://yanki
           predicates:
             - Path=/yanki/**
-        - id: bootcoin
-          uri: lb://bootcoin
+        - id: bootcoinwallet
+          uri: lb://bootcoinwallet
           predicates:
-            - Path=/bootcoin/**
+            - Path=/bootcoinwallet/**
